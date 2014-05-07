@@ -49,7 +49,7 @@ install tig
 install tmux
 install vagrant-completion
 install wget
-install zsh
+install zsh --disable-etcdir
 install "http://toolbelt.treasuredata.com/brew/td-agent.rb"
 
 cleanup
