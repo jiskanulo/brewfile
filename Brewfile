@@ -70,6 +70,7 @@ cask install google-japanese-ime
 cask install iterm2
 cask install mou
 cask install refresh-finder
+cask install rubymine
 cask install the-unarchiver
 cask install trailer
 cask install vagrant
