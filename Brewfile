@@ -62,6 +62,7 @@ cask update
 # packages from cask
 cask install airdisplay
 cask install appcleaner
+cask install atom
 cask install dropbox
 cask install filezilla
 cask install firealpaca
