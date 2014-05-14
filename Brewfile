@@ -8,7 +8,6 @@ tap homebrew/completions
 tap homebrew/dupes
 tap homebrew/php
 tap homebrew/versions
-tap jiska/cask
 
 # packages
 install autojump
@@ -66,7 +65,6 @@ cask install appcleaner
 cask install atom
 cask install dropbox
 cask install filezilla
-cask install firealpaca
 cask install google-chrome
 cask install google-japanese-ime
 cask install iterm2
@@ -79,5 +77,7 @@ cask install vagrant
 cask install virtualbox
 cask install xquartz
 cask install xtrafinder
+
+cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/934cb70f0b0f0848fe9917539feebadd0cb80ed4/firealpaca.rb"
 
 cask cleanup
