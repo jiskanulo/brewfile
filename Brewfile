@@ -17,6 +17,7 @@ install composer
 install coreutils
 install docker
 install findutils
+install gist
 install git
 install git-now
 install gnu-getopt
