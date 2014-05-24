@@ -79,5 +79,6 @@ cask install xquartz
 cask install xtrafinder
 
 cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/934cb70f0b0f0848fe9917539feebadd0cb80ed4/firealpaca.rb"
+cask install "https://gist.githubusercontent.com/jiska/cfea95ee333beb0f88e2/raw/9d9710e95ce57f6fe206722fbc96b70e3958c0f3/github-mac.rb"
 
 cask cleanup
