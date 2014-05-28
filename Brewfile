@@ -10,6 +10,7 @@ tap homebrew/php
 tap homebrew/versions
 
 # packages
+install ag
 install autojump
 install bash-completion
 install composer
