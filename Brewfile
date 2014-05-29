@@ -64,6 +64,8 @@ cask update
 cask install airdisplay
 cask install appcleaner
 cask install atom
+cask install box-sync
+cask install cakebrew
 cask install dropbox
 cask install filezilla
 cask install google-chrome
