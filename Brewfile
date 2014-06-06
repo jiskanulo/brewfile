@@ -76,6 +76,7 @@ cask install minecraft
 cask install mou
 cask install refresh-finder
 cask install rubymine
+cask install slack
 cask install sourcetree
 cask install the-unarchiver
 cask install trailer
