@@ -15,7 +15,6 @@ install autojump
 install bash-completion
 install composer
 install coreutils
-install docker
 install findutils
 install gist
 install git
@@ -64,6 +63,7 @@ cask update
 cask install airdisplay
 cask install appcleaner
 cask install atom
+cask install boot2docker
 cask install box-sync
 cask install cakebrew
 cask install dropbox
