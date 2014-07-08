@@ -58,32 +58,32 @@ install brew-cask
 cask update
 
 # packages from cask
-cask install airdisplay || true
-cask install appcleaner || true
-cask install atom || true
-cask install boot2docker || true
-cask install box-sync || true
-cask install cakebrew || true
-cask install dropbox || true
-cask install filezilla || true
-cask install google-chrome || true
-cask install google-japanese-ime || true
-cask install iterm2 || true
-cask install keyremap4macbook || true
-cask install minecraft || true
-cask install mou || true
-cask install refresh-finder || true
-cask install rubymine || true
-cask install slack || true
-cask install sourcetree || true
-cask install the-unarchiver || true
-cask install trailer || true
-cask install vagrant || true
-cask install virtualbox || true
-cask install xquartz || true
-cask install xtrafinder || true
+cask install airdisplay
+cask install appcleaner
+cask install atom
+cask install boot2docker
+cask install box-sync
+cask install cakebrew
+cask install dropbox
+cask install filezilla
+cask install google-chrome
+cask install google-japanese-ime
+cask install iterm2
+cask install keyremap4macbook
+cask install minecraft
+cask install mou
+cask install refresh-finder
+cask install rubymine
+cask install slack
+cask install sourcetree
+cask install the-unarchiver
+cask install trailer
+cask install vagrant
+cask install virtualbox
+cask install xquartz
+cask install xtrafinder
 
-cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/934cb70f0b0f0848fe9917539feebadd0cb80ed4/firealpaca.rb" || true
-cask install "https://gist.githubusercontent.com/jiska/cfea95ee333beb0f88e2/raw/9d9710e95ce57f6fe206722fbc96b70e3958c0f3/github-mac.rb" || true
+cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/934cb70f0b0f0848fe9917539feebadd0cb80ed4/firealpaca.rb"
+cask install "https://gist.githubusercontent.com/jiska/cfea95ee333beb0f88e2/raw/9d9710e95ce57f6fe206722fbc96b70e3958c0f3/github-mac.rb"
 
 cask cleanup
