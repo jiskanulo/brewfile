@@ -12,7 +12,6 @@ tap homebrew/versions
 # packages
 install ag
 install autojump
-install bash-completion
 install composer
 install coreutils
 install findutils
@@ -50,7 +49,6 @@ install tmux
 install vagrant-completion
 install wget
 install zsh --disable-etcdir
-install "http://toolbelt.treasuredata.com/brew/td-agent.rb"
 
 cleanup
 
