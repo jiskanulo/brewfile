@@ -31,7 +31,8 @@ install openssl
 install optipng
 install packer
 install php-version
-install php53
+install php54
+install php55
 install postgresql
 install pow
 install qt
