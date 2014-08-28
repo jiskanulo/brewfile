@@ -67,6 +67,7 @@ cask install box-sync
 cask install cakebrew
 cask install dropbox
 cask install filezilla
+cask install firefox
 cask install google-chrome
 cask install google-japanese-ime
 cask install iterm2
