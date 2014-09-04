@@ -20,6 +20,7 @@ install git
 install git-now
 install gnu-getopt
 install gnu-tar
+install go
 install htop-osx
 install memcached
 install mongodb
