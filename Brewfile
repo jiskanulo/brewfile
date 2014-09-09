@@ -74,6 +74,7 @@ cask install google-japanese-ime
 cask install iterm2
 cask install karabiner
 cask install minecraft
+cask install phpstorm
 cask install refresh-finder
 cask install rubymine
 cask install slack
