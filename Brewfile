@@ -11,16 +11,19 @@ tap homebrew/versions
 
 # packages
 install ag
+install ansible
 install autojump
 install composer
 install coreutils
 install findutils
 install gist
 install git
+install git-flow
 install git-now
 install gnu-getopt
 install gnu-tar
 install go
+install heroku-toolbelt
 install htop-osx
 install memcached
 install mongodb
@@ -33,13 +36,15 @@ install optipng
 install packer
 install php-version
 install php54
+install php54-xdebug
 install php55
 install postgresql
 install pow
 install qt
 install rails-completion
-install reattach-to-user-namespace
 install rbenv
+install reattach-to-user-namespace
+install redis
 install ruby-build
 install source-highlight
 install sqlite
