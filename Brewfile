@@ -4,6 +4,7 @@ upgrade
 # add repositories
 tap caskroom/cask
 tap homebrew/binary
+tap homebrew/boneyard
 tap homebrew/completions
 tap homebrew/dupes
 tap homebrew/php
