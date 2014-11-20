@@ -91,6 +91,6 @@ cask install virtualbox
 cask install xquartz
 cask install xtrafinder
 
-cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/5e3dbf6cdfdd1e33912dde792b5455df6b86f9b0/firealpaca.rb"
+cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/d40fbf916eb528a243e43d1d3cfac1f3fd37578a/firealpaca.rb"
 
 cask cleanup
