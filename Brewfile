@@ -72,6 +72,7 @@ cask install atom
 cask install boot2docker
 cask install box-sync
 cask install cakebrew
+cask install ccleaner
 cask install dropbox
 cask install filezilla
 cask install firefox
@@ -79,7 +80,6 @@ cask install google-chrome
 cask install google-japanese-ime
 cask install iterm2
 cask install karabiner
-cask install minecraft
 cask install phpstorm
 cask install refresh-finder
 cask install rubymine
@@ -90,7 +90,5 @@ cask install vagrant
 cask install virtualbox
 cask install xquartz
 cask install xtrafinder
-
-cask install "https://gist.githubusercontent.com/jiska/b19e4e5c1476e9599059/raw/d40fbf916eb528a243e43d1d3cfac1f3fd37578a/firealpaca.rb"
 
 cask cleanup
