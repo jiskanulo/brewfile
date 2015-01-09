@@ -66,7 +66,6 @@ install brew-cask
 cask update
 
 # packages from cask
-cask install airdisplay
 cask install appcleaner
 cask install atom
 cask install boot2docker
@@ -74,6 +73,7 @@ cask install box-sync
 cask install cakebrew
 cask install ccleaner
 cask install dropbox
+cask install duet
 cask install filezilla
 cask install firefox
 cask install google-chrome
