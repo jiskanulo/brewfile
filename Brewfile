@@ -9,6 +9,7 @@ tap homebrew/completions
 tap homebrew/dupes
 tap homebrew/php
 tap homebrew/versions
+tap peco/peco
 
 # packages
 install ag
@@ -35,6 +36,7 @@ install node
 install openssl
 install optipng
 install packer
+install peco
 install php-version
 install php54
 install php54-xdebug
