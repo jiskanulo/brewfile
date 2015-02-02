@@ -36,9 +36,9 @@ install optipng
 install packer
 install peco
 install php-version
-install php54
-install php54-xdebug
 install php55
+install php55-redis
+install php55-xdebug
 install postgresql
 install qt
 install rails-completion
