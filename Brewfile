@@ -27,8 +27,6 @@ install gnu-tar
 install go
 install heroku-toolbelt
 install htop-osx
-install memcached
-install mongodb
 install mysql
 install nginx
 install nkf
@@ -42,7 +40,6 @@ install php54
 install php54-xdebug
 install php55
 install postgresql
-install pow
 install qt
 install rails-completion
 install rbenv
@@ -71,7 +68,6 @@ cask update
 cask install appcleaner
 cask install atom
 cask install boot2docker
-cask install box-sync
 cask install cakebrew
 cask install ccleaner
 cask install dropbox
