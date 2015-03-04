@@ -86,6 +86,7 @@ cask install sourcetree
 cask install the-unarchiver
 cask install vagrant
 cask install virtualbox
+cask install vivaldi
 cask install xquartz
 cask install xtrafinder
 
