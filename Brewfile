@@ -3,13 +3,11 @@ upgrade
 
 # add repositories
 tap caskroom/cask
-tap homebrew/binary
 tap homebrew/boneyard
 tap homebrew/completions
 tap homebrew/dupes
 tap homebrew/php
 tap homebrew/versions
-tap peco/peco
 
 # packages
 install ag
@@ -33,14 +31,12 @@ install nkf
 install node
 install openssl
 install optipng
-install packer
 install peco
 install php-version
 install php55
 install php55-redis
 install php55-xdebug
 install postgresql
-install qt
 install rails-completion
 install rbenv
 install reattach-to-user-namespace
@@ -78,6 +74,7 @@ cask install google-chrome
 cask install google-japanese-ime
 cask install iterm2
 cask install karabiner
+cask install packer
 cask install phpstorm
 cask install refresh-finder
 cask install rubymine
@@ -87,7 +84,6 @@ cask install the-unarchiver
 cask install vagrant
 cask install virtualbox
 cask install vivaldi
-cask install xquartz
 cask install xtrafinder
 
 cask cleanup
