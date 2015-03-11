@@ -4,7 +4,6 @@ upgrade
 # add repositories
 tap caskroom/cask
 tap homebrew/boneyard
-tap homebrew/completions
 tap homebrew/dupes
 tap homebrew/php
 tap homebrew/versions
@@ -38,7 +37,6 @@ install php55
 install php55-redis
 install php55-xdebug
 install postgresql
-install rails-completion
 install rbenv
 install reattach-to-user-namespace
 install redis
@@ -50,7 +48,6 @@ install subversion17 --unicode-path
 install terminal-notifier
 install tig
 install tmux
-install vagrant-completion
 install wget
 install zsh --disable-etcdir
 
