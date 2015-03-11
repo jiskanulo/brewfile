@@ -25,6 +25,7 @@ install gnu-tar
 install go
 install heroku-toolbelt
 install htop-osx
+install jq
 install mysql
 install nginx
 install nkf
