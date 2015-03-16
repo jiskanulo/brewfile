@@ -1,87 +1,86 @@
-update
-upgrade
-
-# add repositories
-tap caskroom/cask
-tap homebrew/boneyard
-tap homebrew/dupes
-tap homebrew/php
-tap homebrew/versions
+# tap repositories
+tap 'caskroom/cask'
+tap 'homebrew/boneyard'
+tap 'homebrew/brewdler'
+tap 'homebrew/dupes'
+tap 'homebrew/php'
+tap 'homebrew/versions'
 
 # packages
-install ag
-install ansible
-install autojump
-install composer
-install coreutils
-install findutils
-install gist
-install git
-install git-flow
-install git-now
-install gnu-getopt
-install gnu-tar
-install go
-install heroku-toolbelt
-install htop-osx
-install jq
-install mysql
-install nginx
-install nkf
-install node
-install openssl
-install optipng
-install peco
-install php-version
-install php55
-install php55-redis
-install php55-xdebug
-install postgresql
-install rbenv
-install reattach-to-user-namespace
-install redis
-install ruby-build
-install source-highlight
-install sqlite
-install ssh-copy-id
-install subversion17 --unicode-path
-install terminal-notifier
-install tig
-install tmux
-install wget
-install zsh --disable-etcdir
+brew 'ansible'
+brew 'autojump'
+brew 'composer'
+brew 'coreutils'
+brew 'findutils'
+brew 'gist'
+brew 'git'
+brew 'git-flow'
+brew 'git-now'
+brew 'gnu-tar'
+brew 'go'
+brew 'heroku-toolbelt'
+brew 'htop-osx'
+brew 'imagemagick'
+brew 'jq'
+brew 'mysql'
+brew 'nginx'
+brew 'nkf'
+brew 'node'
+brew 'optipng'
+brew 'peco'
+brew 'php-version'
+brew 'php55'
+brew 'php55-redis'
+brew 'php55-xdebug'
+brew 'postgresql'
+brew 'pwgen'
+brew 'python'
+brew 'rbenv'
+brew 'readline'
+brew 'reattach-to-user-namespace'
+brew 'redis'
+brew 'ruby-build'
+brew 'source-highlight'
+brew 'sqlite'
+brew 'ssh-copy-id'
+brew 'subversion17', args: ['unicode-path']
+brew 'terminal-notifier'
+brew 'the_silver_searcher'
+brew 'tig'
+brew 'tmux'
+brew 'tree'
+brew 'wget'
+brew 'zsh', args: ['disable-etcdir']
 
-cleanup
-
-# for cask
-install brew-cask
-
-cask update
+# for brew cask
+brew 'brew-cask'
 
 # packages from cask
-cask install appcleaner
-cask install atom
-cask install boot2docker
-cask install cakebrew
-cask install ccleaner
-cask install dropbox
-cask install duet
-cask install filezilla
-cask install firefox
-cask install google-chrome
-cask install google-japanese-ime
-cask install iterm2
-cask install karabiner
-cask install packer
-cask install phpstorm
-cask install refresh-finder
-cask install rubymine
-cask install slack
-cask install sourcetree
-cask install the-unarchiver
-cask install vagrant
-cask install virtualbox
-cask install vivaldi
-cask install xtrafinder
-
-cask cleanup
+cask 'appcleaner'
+cask 'atom'
+cask 'boot2docker'
+cask 'cakebrew'
+cask 'ccleaner'
+cask 'dropbox'
+cask 'duet'
+cask 'filezilla'
+cask 'firealpaca'
+cask 'firefox'
+cask 'google-chrome'
+cask 'google-japanese-ime'
+cask 'iterm2'
+cask 'karabiner'
+cask 'mysqlworkbench'
+cask 'opera'
+cask 'packer'
+cask 'phpstorm'
+cask 'refresh-finder'
+cask 'rubymine'
+cask 'sequel-pro'
+cask 'slack'
+cask 'sourcetree'
+cask 'the-unarchiver'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'vivaldi'
+cask 'xtrafinder'
