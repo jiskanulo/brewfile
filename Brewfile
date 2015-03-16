@@ -1,6 +1,5 @@
 # tap repositories
 tap 'caskroom/cask'
-tap 'homebrew/boneyard'
 tap 'homebrew/brewdler'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
