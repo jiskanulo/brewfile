@@ -58,6 +58,7 @@ brew 'zsh', args: ['disable-etcdir']
 brew 'brew-cask'
 
 # packages from cask
+cask '0xdbe-eap'
 cask 'appcleaner'
 cask 'atom'
 cask 'boot2docker'
@@ -79,6 +80,7 @@ cask 'packer'
 cask 'phpstorm'
 cask 'qlmarkdown'
 cask 'qlstephen'
+cask 'rdm'
 cask 'refresh-finder'
 cask 'rubymine'
 cask 'sequel-pro'
