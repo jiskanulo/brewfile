@@ -1,7 +1,7 @@
 # tap repositories
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
-tap 'homebrew/brewdler'
+tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/versions'
