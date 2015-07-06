@@ -1,6 +1,7 @@
 # tap repositories
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
@@ -94,3 +95,4 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'vivaldi'
 cask 'xtrafinder'
+cask 'caskroom/homebrew-versions/java6'
