@@ -5,8 +5,8 @@ my brewfile
 ## how to use
 
 ```sh
-$ brew tap Homebrew/brewdler
-$ brew brewdle
+$ brew tap Homebrew/bundle
+$ brew bundle
 ```
 
-See also https://github.com/Homebrew/homebrew-brewdler
+See also https://github.com/Homebrew/homebrew-bundle
