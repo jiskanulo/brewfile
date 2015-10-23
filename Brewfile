@@ -44,7 +44,6 @@ brew 'ruby-build'
 brew 'source-highlight'
 brew 'sqlite'
 brew 'ssh-copy-id'
-brew 'subversion17', args: ['unicode-path']
 brew 'terminal-notifier'
 brew 'the_silver_searcher'
 brew 'tig'
