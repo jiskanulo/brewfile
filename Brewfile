@@ -58,7 +58,6 @@ brew 'brew-cask'
 # packages from cask
 cask 'appcleaner'
 cask 'atom'
-cask 'boot2docker'
 cask 'box-sync'
 cask 'cakebrew'
 cask 'ccleaner'
