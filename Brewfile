@@ -3,6 +3,7 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'homebrew/core'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/versions'
@@ -20,18 +21,17 @@ brew 'git-flow'
 brew 'git-now'
 brew 'gnu-tar'
 brew 'go'
-brew 'heroku-toolbelt'
+brew 'heroku'
 brew 'htop-osx'
 brew 'imagemagick'
 brew 'jq'
-brew 'lesspipe', args: ['syntax-highlighting']
+brew 'lesspipe', args: ['with-syntax-highlighting']
 brew 'nkf'
 brew 'node'
 brew 'optipng'
 brew 'peco'
 brew 'pngquant'
 brew 'pwgen'
-brew 'python'
 brew 'rbenv'
 brew 'readline'
 brew 'reattach-to-user-namespace'
@@ -46,9 +46,6 @@ brew 'tmux'
 brew 'tree'
 brew 'wget'
 brew 'zsh', args: ['disable-etcdir']
-
-# for brew cask
-brew 'brew-cask'
 
 # packages from cask
 cask 'appcleaner'
