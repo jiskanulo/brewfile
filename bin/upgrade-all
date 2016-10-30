@@ -2,6 +2,4 @@
 
 brew update \
 && brew upgrade \
-&& brew cask list | xargs brew cask install \
-&& brew cleanup \
-&& brew cask cleanup
+&& brew cleanup
