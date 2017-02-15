@@ -5,16 +5,18 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/dupes'
-tap 'homebrew/versions'
+
+# completions
+brew 'docker-completion'
+brew 'docker-compose-completion'
+brew 'docker-machine-completion'
+brew 'zsh-completions'
 
 # packages
 brew 'ansible'
 brew 'autojump'
 brew 'colordiff'
 brew 'coreutils'
-brew 'docker'
-brew 'docker-compose'
-brew 'docker-machine'
 brew 'findutils'
 brew 'ghq'
 brew 'gist'
