@@ -12,6 +12,10 @@ brew 'docker-compose-completion'
 brew 'docker-machine-completion'
 brew 'zsh-completions'
 
+# dependencies 
+## plantuml depends java
+cask 'java'
+
 # packages
 brew 'ansible'
 brew 'autojump'
@@ -34,6 +38,7 @@ brew 'nkf'
 brew 'node'
 brew 'optipng'
 brew 'peco'
+brew 'plantuml'
 brew 'pngquant'
 brew 'pwgen'
 brew 'rbenv'
