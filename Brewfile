@@ -1,91 +1,130 @@
-# tap repositories
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/dupes'
-
-# completions
-brew 'docker-completion'
-brew 'docker-compose-completion'
-brew 'docker-machine-completion'
-brew 'zsh-completions'
-
-# dependencies 
-## plantuml depends java
-cask 'java'
-
-# packages
-brew 'ansible'
-brew 'autojump'
-brew 'colordiff'
-brew 'coreutils'
-brew 'findutils'
-brew 'ghq'
-brew 'gist'
-brew 'git-flow'
-brew 'git-now'
-brew 'git'
-brew 'gnu-tar'
-brew 'go'
-brew 'heroku'
-brew 'htop-osx'
-brew 'imagemagick'
-brew 'jq'
-brew 'lesspipe', args: ['with-syntax-highlighting']
-brew 'nkf'
-brew 'node'
-brew 'optipng'
-brew 'peco'
-brew 'plantuml'
-brew 'pngquant'
-brew 'pwgen'
-brew 'rbenv'
-brew 'readline'
-brew 'reattach-to-user-namespace'
-brew 'ruby-build'
-brew 'source-highlight'
-brew 'sqlite'
-brew 'ssh-copy-id'
-brew 'terminal-notifier'
-brew 'the_silver_searcher'
-brew 'tig'
-brew 'tmux'
-brew 'tree'
-brew 'wget'
-brew 'zsh', args: ['disable-etcdir']
-
-# packages from cask
-## fonts
-cask 'font-source-han-code-jp'
-
-# apps
-cask 'appcleaner'
-cask 'atom'
-cask 'cathode'
-cask 'docker'
-cask 'duet'
-cask 'google-chrome'
-cask 'google-japanese-ime'
-cask 'iterm2'
-cask 'kitematic'
-cask 'slack'
-cask 'the-unarchiver'
-cask 'vagrant'
-cask 'virtualbox'
-
-## quicklook
-cask 'betterzipql'
-cask 'epubquicklook'
-cask 'qlcolorcode'
-cask 'qlimagesize'
-cask 'qlmarkdown'
-cask 'qlprettypatch'
-cask 'qlstephen'
-cask 'qlvideo'
-cask 'quicklook-csv'
-cask 'quicklook-json'
-cask 'quicklookase'
-cask 'suspicious-package'
-cask 'webpquicklook'
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/dupes"
+tap "homebrew/php"
+tap "homebrew/services"
+cask "java"
+brew "libyaml"
+brew "openssl"
+brew "readline"
+brew "sqlite"
+brew "ansible"
+brew "asciidoc"
+brew "python"
+brew "asciinema"
+brew "autoconf"
+brew "autojump"
+brew "awscli"
+brew "boost"
+brew "colordiff"
+brew "coreutils"
+brew "go"
+brew "dep"
+brew "docker-completion"
+brew "docker-compose-completion"
+brew "docker-machine-completion"
+brew "findutils"
+brew "freetype"
+brew "gettext"
+brew "ghq"
+brew "gist"
+brew "git"
+brew "git-flow"
+brew "gnu-getopt"
+brew "git-now"
+brew "glide"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "libtool"
+brew "heroku"
+brew "highlight"
+brew "hub"
+brew "hugo"
+brew "imagemagick"
+brew "oniguruma"
+brew "jq"
+brew "lesspipe", args: ["with-syntax-highlighting"]
+brew "libevent"
+brew "libssh2"
+brew "mas"
+brew "mdv"
+brew "mysql"
+brew "nkf"
+brew "optipng"
+brew "pcre"
+brew "peco"
+brew "pkg-config"
+brew "plantuml"
+brew "pngquant"
+brew "pwgen"
+brew "qrencode"
+brew "reattach-to-user-namespace"
+brew "ruby-build"
+brew "source-highlight"
+brew "ssh-copy-id"
+brew "telnet"
+brew "terminal-notifier"
+brew "the_silver_searcher"
+brew "tig"
+brew "tmux", args: ["with-utf8proc"]
+brew "tree"
+brew "wget"
+brew "youtube-dl"
+brew "zplug"
+brew "zsh", args: ["without-etcdir"]
+brew "zsh-completions"
+cask "appcleaner"
+cask "betterzipql"
+cask "brave"
+cask "cathode"
+cask "cyberduck"
+cask "dash"
+cask "docker"
+cask "duet"
+cask "epubquicklook"
+cask "font-3270"
+cask "font-m-plus"
+cask "font-open-sans"
+cask "font-source-code-pro"
+cask "font-source-han-code-jp"
+cask "font-source-sans-pro"
+cask "font-titillium-web"
+cask "gimp"
+cask "google-chrome"
+cask "intellij-idea"
+cask "iterm2"
+cask "kitematic"
+cask "minecraft"
+cask "mono-mdk"
+cask "mysqlworkbench"
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "qlprettypatch"
+cask "qlstephen"
+cask "qlvideo"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "quicklookase"
+cask "rdm"
+cask "slack"
+cask "sourcetree"
+cask "steam"
+cask "suspicious-package"
+cask "the-unarchiver"
+cask "unity"
+cask "vagrant"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vivaldi"
+cask "webpquicklook"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
