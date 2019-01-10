@@ -1,5 +1,5 @@
 #!/bin/bash
 
 brew update \
-&& brew upgrade --cleanup \
+&& HOMEBREW_INSTALL_CLEANUP=1 brew upgrade \
 && brew cask upgrade
