@@ -93,7 +93,6 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "webpquicklook"
-mas "GarageBand", id: 682658836
 mas "LINE", id: 539883307
 mas "Medis", id: 1063631769
 mas "Spark", id: 1176895641
