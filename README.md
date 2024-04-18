@@ -5,7 +5,6 @@ my brewfile
 ## how to use
 
 ```sh
-$ brew tap Homebrew/bundle
 $ brew bundle
 ```
 
